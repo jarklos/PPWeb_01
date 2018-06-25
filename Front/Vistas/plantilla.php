@@ -1,4 +1,4 @@
-#Aqui es donde se define lo que va a visualizar el usuario
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +6,6 @@
 	<title>Psiker</title>
 </head>
 <body>
-	<hi>Titulo</hi>
+	<hi>Psiker's</hi>
 </body>
 </html>
