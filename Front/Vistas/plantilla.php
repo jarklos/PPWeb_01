@@ -6,6 +6,6 @@
 	<title>Psikers</title>
 </head>
 <body>
-	<hi>Psiker's</hi>
+	<hi>Psikers</hi>
 </body>
 </html>
