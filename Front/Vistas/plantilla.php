@@ -18,7 +18,7 @@
 	<title>Psikers</title>
 
 	<!-- Importamos Librerias-->
-
+		<!-- Siempre Url totales-->
 
 	<link rel="stylesheet"  href="vistas/css/plugin/bootstrap/css/bootstrap.min.css">
 
