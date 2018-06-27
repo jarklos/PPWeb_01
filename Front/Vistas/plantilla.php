@@ -24,6 +24,11 @@
 
 	<link rel="stylesheet"  href="vistas/css/plugin/font-awesome/css/font-awesome.min.css">
 
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="vistas/css/plantilla.css">
+	<link rel="stylesheet" type="text/css" href="vistas/css/cabezon.css">
+	
 	<script src = vistas/js/plugins/jquery.js></script>
 
 	<script src = vistas/js/plugins/bootstrap.min.js></script>

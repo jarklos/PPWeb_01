@@ -1,0 +1,52 @@
+/*===========================================================
+Global
+=============================================================*/
+
+*{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ul,ol{
+	padding: 0px;
+
+}
+
+a:visited,a:link,a:focus,a:hovet,a:active}{
+	list-style: none;
+	text-decoration: none;
+}
+
+.Social{
+	background: black;
+}
+.Social a{
+	background: grey;
+}
+
+.backColor,a{
+	background: #b3ffe6;
+	color:#e6fff7;
+}
+
+/*==========================================================
+Redes Sociales
+============================================================*/
+
+.redSocial{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+/*Facebook*/
+.facebookBlanco{
+	color: white;
+}
+.facebookColor{
+	color:white;
+	background: #46639f;
+}

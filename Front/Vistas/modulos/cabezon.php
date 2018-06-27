@@ -1,87 +1,26 @@
 <!-- Declaramos el top -->
-
 <div class ="container-fluid BarraSuperior" id = "top">
 	<div class="container">
-		<div class ="row">
+		<div class ="col-lg-9 col-md-9 col-sm-8 col-xs-12 social">
 			<!-- Social -->
 			<!--Insterte enlace aqui -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1 redSocial">
 				<ul>
 					<li>
 						<a href = "https://facebook.com/" target="_blank">
-							<i class="fab fa-facebook-f"></i>
+							<i class="fa fa-facebook-f"></i>
 						</a>
 					</li>
 				</ul>
 			</div>
 			<!--Insterte enlace aqui -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1"">
-				<ul>
-					<li>
-						<a href = "https://facebook.com/" target="_blank">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!--Insterte enlace aqui -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1"">
-				<ul>
-					<li>
-						<a href = "https://facebook.com/" target="_blank">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!--Insterte enlace aqui -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1"">
-				<ul>
-					<li>
-						<a href = "https://facebook.com/" target="_blank">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!--Insterte enlace aqui -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1"">
-				<ul>
-					<li>
-						<a href = "https://facebook.com/" target="_blank">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!--Insterte enlace aqui -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1"">
-				<ul>
-					<li>
-						<a href = "https://facebook.com/" target="_blank">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!--Insterte enlace aqui -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1"">
-				<ul>
-					<li>
-						<a href = "https://facebook.com/" target="_blank">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- Casilla Vacia -->
-			<div class ="col-lg-1 col-md-1 col-sm-1 col-xs-1""></div>
+		
 
 			<!-- registro -->
-			<div class ="col-lg-4 col-md-4 col-sm-4 col-xs-12 registro">
+			<div class ="col-lg-3 col-md-3 col-sm-4 col-xs-12 registro">
 				<ul>
 					<li><a href ="#modalIngreso" data-toggle = "modal">Ingresar</a></li>
-					
+					<li>|</li>
 					<li><a href ="#modalRegistro" data-toggle = "modal">Crear una cuenta</a></li>
 				</ul>
 			</div>
@@ -92,7 +31,7 @@
 	<!-- Declaramos el Header-->
 	<header  class="container-fluid">
 		<div class="container">
-			<div class ="row" id = "cabezon">
+			<div class ="col-lg-12 col-md-12 col-sm-12 col-xs-12" id = "cabezon">
 				<!-- Logotipo-->
 				<div class ="col-lg-2 col-md-2 col-sm-2 col-xs-12" id="logotipo">
 					<a href ="#">
@@ -100,8 +39,8 @@
 					</a>
 				</div>
 				<!-- Categorias-->
-				<div class = "col-lg-6 col-md-6 col-sm-8 col-xs-12">
-					<div class = "col-lg-3 col-md-3 col-sm-3 col-xs-12 backColor" id = "botonCategoria">
+				<div class = "col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class = "col-lg-3 col-md-3 col-sm-3 col-xs-12 backColor" id = "btnCategoria">
 						<p>Categoria
 							<span class ="pull-right"><i class="fa fa-bars" aria-hidden ="true"></i></span>
 						</p>
@@ -114,7 +53,7 @@
 					<span class="input-group-btn">
 						<a href="#">
 							<button class="btn btn-default backColor" type="submit">
-								<i class="fa fa-serch"></i>
+								<i class="fas fa-search"></i>
 							</button>
 						</a>
 					</span>
