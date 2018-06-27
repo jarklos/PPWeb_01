@@ -146,8 +146,8 @@
 		<hr>
 		<ul>
 			<!--Aqui se definen las subcategorias-->
-			<li><a href="#" class= "pixelSubCategoria">Lorem Ipsum</a></li>
-			<li><a href="#" class= "pixelSubCategoria">Lorem Ipsum</a></li>
+			<li><a href="#" class= "pixelSubCategoria">Psicopatologia</a></li>
+			<li><a href="#" class= "pixelSubCategoria"></a></li>
 			<li><a href="#" class= "pixelSubCategoria">Lorem Ipsum</a></li>
 			<li><a href="#" class= "pixelSubCategoria">Lorem Ipsum</a></li>
 		</ul>
