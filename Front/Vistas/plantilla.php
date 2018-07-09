@@ -15,7 +15,7 @@
 
 	<!-- Aqui termina el header (Cabezon)-->
 
-	<title>Psikers</title>
+	<title>Psiky-Formacion</title>
 
 	<!-- Importamos Librerias-->
 		<!-- Siempre Url totales-->
