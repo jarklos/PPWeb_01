@@ -8,6 +8,7 @@
 	function obtenerInfo($id){
 		global $enlace;
 		
+		
 		$resultado =  mysqli_query($enlace,"SELECT * FROM videos WHERE id ='".$id."'");
 		
 		while ($fila = mysqli_fetch_array($resultado)){
@@ -18,6 +19,7 @@
 	}
 	
 	if($_SERVER['REQUEST_METHOD']==='GET'){
+	
 		$resultados = obtenerInfo($_GET['id']);
 		
 	}

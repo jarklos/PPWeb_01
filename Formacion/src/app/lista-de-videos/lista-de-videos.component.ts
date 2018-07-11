@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Response } from '@angular/http';
+
 
 
 @Component({
@@ -9,18 +11,29 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ListaDeVideosComponent implements OnInit {
 
+ //  private resultado: Observable<Object>;
+
+  videos: Array<Object>;
+  rutaServer: string;
   constructor(private ruta: HttpClient) {
 
    }
 
   ngOnInit() {
+    this.rutaServer = 'http://localhost/PPWeb_01/PPWeb_01/Api/uploads';
+    this.videos = [];
    this.peticionExterna();
   }
   peticionExterna(): void {
-    this.ruta.get('localhost/PPWeb_01/Api/info-video.php')
-    .subscribe((res: Response) => {
-      console.log(res.json());
-    });
-  }
+    this.ruta.get('http://localhost/PPWeb_01/PPWeb_01/Api/lista-de-videos.php')
+    .subscribe((res: Array<object>) => {
+
+       this.videos = res;
+       console.log(this.videos);
+    },
+  error => {
+    console.log('Error');
+  });
+      }
 
 }

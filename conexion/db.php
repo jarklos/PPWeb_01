@@ -7,7 +7,5 @@
 		echo "Error";
 		exit;
 	}
-	else{
-		echo("Conectado");
-	}
+	
 ?>

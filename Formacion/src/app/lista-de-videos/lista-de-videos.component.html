@@ -1,3 +1,16 @@
-<p>
-  lista-de-videos works!
-</p>
+<div>
+  <div *ngFor="let video of videos">
+<div>
+  <img src ="{{rutaServer}}{{video.imagen_src}}" alt= "{{video.titulo}}" class = "thumbnail"
+</div>
+
+      <div class="detalles col-sm-10" >
+        <h3> {{video.titulo}}</h3>
+        <p>{{video.descripcion}}</p>
+      </div>
+
+  </div>
+
+
+
+</div>
