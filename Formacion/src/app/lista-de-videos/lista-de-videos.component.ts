@@ -20,7 +20,7 @@ export class ListaDeVideosComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.rutaServer = 'http://localhost/PPWeb_01/PPWeb_01/Api/uploads';
+    this.rutaServer = 'http://localhost/PPWeb_01/PPWeb_01/Api/uploads/';
     this.videos = [];
    this.peticionExterna();
   }

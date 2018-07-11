@@ -1,8 +1,8 @@
-<div>
+<div class="container componente-lista">
   <div *ngFor="let video of videos">
-<div>
-  <img src ="{{rutaServer}}{{video.imagen_src}}" alt= "{{video.titulo}}" class = "thumbnail"
-</div>
+<div class="col-sm-2 ">
+  <img  src ="{{rutaServer}}{{video.imagen_src}}" alt= "{{video.titulo}}" class = "thumbnail"></div>
+
 
       <div class="detalles col-sm-10" >
         <h3> {{video.titulo}}</h3>
