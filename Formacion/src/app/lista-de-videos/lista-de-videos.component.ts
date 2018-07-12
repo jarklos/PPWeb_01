@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Response } from '@angular/http';
-
 
 
 @Component({
   selector: 'app-lista-de-videos',
   templateUrl: './lista-de-videos.component.html',
-  styleUrls: ['./lista-de-videos.component.css']
+  styleUrls: ['./lista-de-videos.component.css'],
+
 })
 export class ListaDeVideosComponent implements OnInit {
 
@@ -16,10 +15,11 @@ export class ListaDeVideosComponent implements OnInit {
   videos: Array<Object>;
   rutaServer: string;
   constructor(private ruta: HttpClient) {
-
    }
 
+
   ngOnInit() {
+    console.log('Soy lista de videos y me he iniciado');
     this.rutaServer = 'http://localhost/PPWeb_01/PPWeb_01/Api/uploads/';
     this.videos = [];
    this.peticionExterna();
