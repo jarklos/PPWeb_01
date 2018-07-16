@@ -14,6 +14,11 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { ListaDeVideosComponent } from './components/lista-de-videos/lista-de-videos.component';
 import { VideoPlayerComponent } from './components/video-player/video-player.component';
+import { FormulariosComponent } from './components/formularios/formularios.component';
+import { CursoCComponent } from './components/cursoC/cursoC.component';
+import { CursoComponent } from './components/cursoC/curso/curso.component';
+import { MenuCursoComponent } from './components/cursoC/menu-curso/menu-curso.component';
+import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso/descripcion-curso.component';
 
 
 
@@ -23,7 +28,12 @@ import { VideoPlayerComponent } from './components/video-player/video-player.com
     HeaderComponent,
     ListaDeVideosComponent,
     VideoPlayerComponent,
-    HomeComponent
+    HomeComponent,
+    FormulariosComponent,
+    CursoCComponent,
+    CursoComponent,
+    MenuCursoComponent,
+    DescripcionCursoComponent
   ],
   imports: [
     BrowserModule,
