@@ -1,23 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule} from '@angular/common/http';
-import {RouterModule, Routes} from '@angular/router';
+import { NgModule } from '@angular/core';
 
+// Services
+import { HttpClientModule } from '@angular/common/http';
+import { VideoService } from './services/videos.service';
+
+// Router
+import { APP_ROUTING } from './app.routes';
+
+// Pages
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { ListaDeVideosComponent } from './lista-de-videos/lista-de-videos.component';
-import { VideoPlayerComponent } from './video-player/video-player.component';
-
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-
+import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/shared/header/header.component';
+import { ListaDeVideosComponent } from './components/lista-de-videos/lista-de-videos.component';
+import { VideoPlayerComponent } from './components/video-player/video-player.component';
 
 
-
-const rutasApp = [
-{path: 'lista-video', component: ListaDeVideosComponent},
-{path: 'video-player', component: VideoPlayerComponent},
-{path: '', redirectTo: 'lista-video', pathMatch: 'full'},
-{path: '**', component: ListaDeVideosComponent}
-];
 
 @NgModule({
   declarations: [
@@ -25,15 +23,16 @@ const rutasApp = [
     HeaderComponent,
     ListaDeVideosComponent,
     VideoPlayerComponent,
+    HomeComponent
   ],
   imports: [
-    RouterModule.forRoot(rutasApp),
     BrowserModule,
+    APP_ROUTING,
     HttpClientModule
   ],
-  exports: [RouterModule],
-  providers: [],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  providers: [
+    VideoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
