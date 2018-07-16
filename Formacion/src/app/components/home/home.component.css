@@ -1,0 +1,23 @@
+.jumbotron{
+    background-image: url("../../../assets/img/jumbo3.jpg");
+    background-attachment: scroll;
+    background-size:cover;
+    background-position: center;
+    background-clip: border-box;
+    background-repeat:no-repeat;
+    background-color: tomato;
+}
+.h1{
+    text-decoration: tomato;
+    text-align: center;
+}
+.thumbnail{
+background-image: url("../../../assets/img/jumbo1.jpg");
+background-size:100%;
+background-position: center;
+background-clip: border-box;
+background-repeat:no-repeat;
+}
+p{
+align-content: center;
+}
