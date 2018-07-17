@@ -3,7 +3,28 @@
   <p>descripcion</p>
   <p><a class="btn btn-primary btn-lg" href="#" role="button">Comprar</a></p>
 </div>
-<div class ="row">
+
+
+<div *ngFor="let video of videos">
+   
+    <div class="col-sm-2 ">
+
+      <img  src ="{{rutaServer}}{{video.imagen_src}}" alt= "{{video.titulo}}" class = "thumbnail">
+
+    </div>
+      
+      <div class="detalles col-sm-10" >
+       
+        <h3> {{video.titulo}}</h3>
+        <p>{{video.descripcion}}</p>
+
+      </div>
+
+   
+    </div>
+
+<div *ngFor="let video of videos" class ="row">
+  Producto lite.
   <!--Producto Lite-->
   <div class="col-lg-3">
     <div class="thumbnail">
@@ -16,40 +37,3 @@
       </div>
     </div>
   </div>
-  <!--Producto Lite-->
-  <div class="col-lg-3">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Producto destacado Lite</h3>
-          <p>Descripcion</p>
-          <p>
-            <a href="#" class="btn btn-primary" role="button">Saber mas</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--Producto Lite-->
-  <div class="col-lg-3">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Producto destacado Lite</h3>
-          <p>Descripcion</p>
-          <p>
-            <a href="#" class="btn btn-primary" role="button">Saber mas</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--Producto Lite-->
-  <div class="col-lg-3">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>Producto destacado Lite</h3>
-          <p>Descripcion</p>
-          <p>
-            <a href="#" class="btn btn-primary" role="button">Saber mas</a>
-          </p>
-        </div>
-      </div>
-    </div>
-</div>

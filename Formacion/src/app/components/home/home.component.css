@@ -13,11 +13,8 @@
 }
 .thumbnail{
 background-image: url("../../../assets/img/jumbo1.jpg");
-background-size:100%;
+background-size:cover;
 background-position: center;
 background-clip: border-box;
 background-repeat:no-repeat;
-}
-p{
-align-content: center;
 }
