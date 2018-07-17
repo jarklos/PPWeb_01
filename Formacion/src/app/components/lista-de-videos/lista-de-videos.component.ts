@@ -19,7 +19,6 @@ export class ListaDeVideosComponent implements OnInit {
 
 
   ngOnInit() {
-    this._videos.peticionExterna();
   }
 
 

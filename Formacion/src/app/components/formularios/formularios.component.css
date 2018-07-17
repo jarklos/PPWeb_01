@@ -1,0 +1,30 @@
+.back{
+    height: 2000px;
+    margin-top: 0%;
+    margin-left: 50%;
+    background: linear-gradient(-90deg,rgb(231, 60, 83),tomato); 
+    z-index: 0;
+}
+.formulario{
+    border: 10px ,rgba(255, 99, 71, 0.575);
+    background:url("../../../../../Api/uploads/backform.png");
+    z-index: 1;
+    
+}
+.form-group{
+opacity: 0.8;
+}
+.btn{
+    border-radius: 8px;
+    margin-left: 70%;
+    -webkit-transition-duration: 0.4s; 
+    background-color:tomato;
+    color: whitesmoke;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: rgb(170, 65, 46); 
+    color:whitesmoke;
+}
+
+

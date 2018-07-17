@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {VideoService} from '../../services/videos.service';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+  constructor(private _videos: VideoService) {
+    this._videos.peticionExterna();
+  }
 
   ngOnInit() {
+
+    console.log(this._videos.videos);
   }
 
 }
