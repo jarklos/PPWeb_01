@@ -19,12 +19,14 @@ export class FormulariosComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 
   llamar() {
-    this.uss =  document.getElementById('uss').textContent;
-    this.pss =  document.getElementById('pss').textContent;
-    this._videos.peticionLogin('Dani', 'tejedor');
+    /*this.uss =  document.getElementById('uss');
+    this.pss =  document.getElementById('pss');*/
+    console.log('Usuario =' + 'nombre' + ' Contraseña =' + 'pass');
+     this._videos.peticionLogin(this.uss, this.pss);
   }
 
 }

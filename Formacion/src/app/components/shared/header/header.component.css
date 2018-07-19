@@ -3,10 +3,12 @@
     background-color: tomato;
     border: solid black;
 }
-.boton{
-    background-color: tomato;
-    border: solid black;
+.btn{
+    background-color: rgb(230, 230, 230);
+    border: solid whitesmoke;
+    color:tomato;
     text-align: center;
     font-size: 20px;
+    border-radius: 8px;
 
 }

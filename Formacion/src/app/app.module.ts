@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 // Services
 import { HttpClientModule } from '@angular/common/http';
@@ -19,6 +20,8 @@ import { CursoCComponent } from './components/cursoC/cursoC.component';
 import { CursoComponent } from './components/cursoC/curso/curso.component';
 import { MenuCursoComponent } from './components/cursoC/menu-curso/menu-curso.component';
 import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso/descripcion-curso.component';
+import { UserPageComponent } from './components/user-page/user-page.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 
 
@@ -33,12 +36,15 @@ import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso
     CursoCComponent,
     CursoComponent,
     MenuCursoComponent,
-    DescripcionCursoComponent
+    DescripcionCursoComponent,
+    UserPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTING,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     VideoService

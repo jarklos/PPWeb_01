@@ -1,11 +1,15 @@
 .back{
-    height: 2000px;
+    height: 650px;
     margin-top: 0%;
     margin-left: 50%;
     background: linear-gradient(-90deg,rgb(231, 60, 83),tomato); 
     z-index: 0;
 }
 .formulario{
+    border-radius: 25px;
+    position: absolute;
+    top:15%;
+    left:10%;
     border: 10px ,rgba(255, 99, 71, 0.575);
     background:url("../../../../../Api/uploads/backform.png");
     z-index: 1;
@@ -13,6 +17,12 @@
 }
 .form-group{
 opacity: 0.8;
+}
+.logo{
+    background-image: url("../../../../../Api/uploads/logo.png");
+    height: 100px;
+    margin-left: 10%;
+    background-repeat: no-repeat;
 }
 .btn{
     border-radius: 8px;
