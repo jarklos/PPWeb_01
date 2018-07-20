@@ -1,5 +1,6 @@
 .back{
     height: 650px;
+    width: 670px;
     margin-top: 0%;
     margin-left: 50%;
     background: linear-gradient(-90deg,rgb(231, 60, 83),tomato); 
@@ -9,7 +10,7 @@
     border-radius: 25px;
     position: absolute;
     top:15%;
-    left:10%;
+    left:15%;
     border: 10px ,rgba(255, 99, 71, 0.575);
     background:url("../../../../../Api/uploads/backform.png");
     width: 900px;
