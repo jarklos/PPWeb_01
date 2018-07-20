@@ -12,6 +12,7 @@
     left:10%;
     border: 10px ,rgba(255, 99, 71, 0.575);
     background:url("../../../../../Api/uploads/backform.png");
+    width: 900px;
     z-index: 1;
     
 }
