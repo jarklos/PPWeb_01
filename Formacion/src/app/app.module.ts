@@ -25,6 +25,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { VideosCursoComponent } from './components/cursoC/videos-curso/videos-curso.component';
 import { MaterialComponent } from './components/cursoC/material/material.component';
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
+import { RegistroVComponent } from './components/registro-v/registro-v.component';
 
 
 
@@ -44,7 +45,8 @@ import { ResetPassComponent } from './components/reset-pass/reset-pass.component
     FooterComponent,
     VideosCursoComponent,
     MaterialComponent,
-    ResetPassComponent
+    ResetPassComponent,
+    RegistroVComponent
   ],
   imports: [
     BrowserModule,

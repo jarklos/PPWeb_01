@@ -9,6 +9,7 @@ import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso
 import { VideosCursoComponent } from './components/cursoC/videos-curso/videos-curso.component';
 import { MaterialComponent } from './components/cursoC/material/material.component';
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
+import { RegistroVComponent } from './components/registro-v/registro-v.component';
 
 const ROUTES: Routes = [
     { path: '', component: HomeComponent },
@@ -24,6 +25,8 @@ const ROUTES: Routes = [
             { path: 'material', component: MaterialComponent },
         ]
     },
+    { path: 'curso', component: CursoCComponent },
+    { path: 'formV', component: RegistroVComponent },
     { path: '**', component: HomeComponent }
 ];
 
