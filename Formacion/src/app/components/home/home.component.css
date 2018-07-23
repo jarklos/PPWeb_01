@@ -18,3 +18,9 @@ background-position: center;
 background-clip: border-box;
 background-repeat:no-repeat;
 }
+.miniatura{
+
+}
+.miniatura:hover{
+display: none;
+}

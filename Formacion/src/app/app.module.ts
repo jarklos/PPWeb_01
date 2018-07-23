@@ -22,6 +22,7 @@ import { MenuCursoComponent } from './components/cursoC/menu-curso/menu-curso.co
 import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso/descripcion-curso.component';
 import { UserPageComponent } from './components/user-page/user-page.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { RegistroVComponent } from './components/registro-v/registro-v.component';
 
 
 
@@ -38,7 +39,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     MenuCursoComponent,
     DescripcionCursoComponent,
     UserPageComponent,
-    FooterComponent
+    FooterComponent,
+    RegistroVComponent
   ],
   imports: [
     BrowserModule,

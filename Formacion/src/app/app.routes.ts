@@ -5,6 +5,7 @@ import { ListaDeVideosComponent } from './components/lista-de-videos/lista-de-vi
 import { VideoPlayerComponent } from './components/video-player/video-player.component';
 import { FormulariosComponent } from './components/formularios/formularios.component';
 import { CursoCComponent } from './components/cursoC/cursoC.component';
+import { RegistroVComponent } from './components/registro-v/registro-v.component';
 
 const ROUTES: Routes = [
     { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ const ROUTES: Routes = [
     { path: 'video-player', component: VideoPlayerComponent },
     { path: 'form', component: FormulariosComponent },
     { path: 'curso', component: CursoCComponent },
+    { path: 'formV', component: RegistroVComponent },
     { path: '**', component: HomeComponent }
 ];
 

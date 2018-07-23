@@ -4,15 +4,18 @@
   <p><a class="btn btn-primary btn-lg" href="#" role="button">Comprar</a></p>
 </div>
 
+<div class = "Plite  container row">
+  <div class=" col-lg-4 col-md-6 col-sm-6 col-sx-12" *ngFor ="let video of videos">
+      <video width="320" height="180" controls poster={{video.imagen_src}}>
+          <source src={{video.video_src}} type="video/mp4">
+          Tu navegador no soporta HTML5 video.
+      </video>
+      <!--<img class="miniatura" src={{video.imagen_src}} alt="Card image cap">-->
+      
+    <h1>{{video.titulo}}</h1>
+    <p>{{video.descripcion}}</p>
+  </div>
 
-<div ng-repeat="video in videos">
-  <div class="col-sm-2 ">
-    Traca
-    <!--<img  src ="{{rutaServer}}{{video.imagen_src}}" alt= "{{video.titulo}}" class = "thumbnail">-->
-  </div>
-  <div class="detalles col-sm-10" >
-    Mora
-    <!--<h3>{{video.titulo}}</h3>-->
-    <!--<p>{{video.descripcion}}</p>-->
-  </div>
 </div>
+
+

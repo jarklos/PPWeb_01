@@ -14,8 +14,9 @@ export class VideoService {
     peticionExterna() {
         this._http.get('http://localhost/PPWeb_01/PPWeb_01/Api/lista-de-videos.php')
         .subscribe((res: any[]) => {
-
-           this.videos = res;
+          this.videos = res;
+          console.log('esto viende de la db');
+          console.log(this.videos);
         },
       error => {
         console.log('Error');
