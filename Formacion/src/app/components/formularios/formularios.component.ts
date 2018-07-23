@@ -12,8 +12,8 @@ export class FormulariosComponent implements OnInit {
 
   users: any[];
   rutaServer: string;
-  uss: string;
-  pss: string;
+  user: string;
+  pass: string;
 
   constructor(private _videos: VideoService, @Inject(DOCUMENT) document) {
   }
@@ -22,11 +22,9 @@ export class FormulariosComponent implements OnInit {
 
   }
 
-  llamar() {
-    /*this.uss =  document.getElementById('uss');
-    this.pss =  document.getElementById('pss');*/
-    console.log('Usuario =' + 'nombre' + ' Contraseña =' + 'pass');
-     this._videos.peticionLogin(this.uss, this.pss);
+  llamar(user, pass) {
+    console.log('Usuario =' + user + ' Contraseña =' + pass);
+     this._videos.peticionLogin(this.user, this.pass);
   }
 
 }

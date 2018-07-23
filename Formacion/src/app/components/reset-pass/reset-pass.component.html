@@ -1,0 +1,23 @@
+<div class="back"></div>
+<div class ="formulario" >
+  <div class="logo"></div>
+
+  <h1>¿Olvidtaste la contraseña?</h1>
+    <form class="container row">
+        <div class="form-group col-lg-12 col-md-4 col-sm-6 col-sx-12">
+          <label for="uss">Usuario</label>
+          <input type="text" class="form-control" name='uss' [(ngModel)]='user' id="uss" placeholder="Usuario">
+        </div>
+        <div class="form-group col-lg-12 col-md-4 col-sm-6 col-sx-12">
+          <label for="mail">Correo electrónico</label> 
+          <input type="email" class="form-control" name='mail' id="mail" [(ngModel)]='mail' placeholder="Correo electrónico" >
+        </div>
+        <button type="#" class="btn btn-default">ENVIAR</button><br>
+      </form>
+      
+      <span>En unos minutos recibirás un correo con las instrucciones para recuperar tu contraseña.</span>
+      <br />
+      <span>¿No has recibido el correo? <a href='#'> Haz click aquí.</a> </span>
+</div>
+
+  
