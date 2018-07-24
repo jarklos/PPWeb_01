@@ -1,4 +1,13 @@
-.jumbotron{
+.padding {
+    padding: 100px 0 30px 0;
+}
+
+.jumbotron {
+    width: 70%;
+    background: transparent;
+}
+
+.jumbotron2{
     background-image: url("../../../assets/img/jumbo3.jpg");
     background-attachment: scroll;
     background-size:cover;
@@ -18,9 +27,7 @@ background-position: center;
 background-clip: border-box;
 background-repeat:no-repeat;
 }
-.miniatura{
 
-}
 .miniatura:hover{
 display: none;
 }

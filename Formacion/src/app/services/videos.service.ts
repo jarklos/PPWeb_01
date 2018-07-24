@@ -1,6 +1,5 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { _getComponentHostLElementNode } from '../../../node_modules/@angular/core/src/render3/instructions';
 
 @Injectable()
 export class VideoService {
@@ -12,22 +11,19 @@ export class VideoService {
     }
 
     peticionExterna() {
-        this._http.get('http://localhost/PPWeb_01/PPWeb_01/Api/lista-de-videos.php')
-        .subscribe((res: any[]) => {
-          this.videos = res;
-          console.log('esto viende de la db');
-          console.log(this.videos);
-        },
-      error => {
-        console.log('Error');
-      });
+      return this._http.get('http://localhost/PPWeb_01/Api/lista-de-videos.php');
+        console.log('esto viende de la db');
+        console.log(this.videos);
+
     }
+
     peticionLogin(uss, pss) {
       console.log('Traca');
-      this._http.get('http://localhost/PPWeb_01/PPWeb_01/Api/login.php?uss=' + uss + '&pss=' + pss)
+      const users = this._http.get('http://localhost/PPWeb_01/Api/login.php?uss=' + uss + '&pss=' + pss)
       .subscribe((res: any[]) => {
          this.user = res;
          console.log(this.user);
+         return users;
       },
     error => {
       console.log('Error');

@@ -19,4 +19,16 @@ h1{
     padding-left: 10px;
     color:black;
 }
-/* You can add global styles to this file, and also import other style files */
+
+.resaltado {
+    color: tomato;
+}
+
+.btn-resaltado {
+    background: tomato;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
