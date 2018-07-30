@@ -19,10 +19,9 @@ const ROUTES: Routes = [
     { path: 'reset-pass', component: ResetPassComponent },
     { path: 'curso/:id', component: CursoCComponent,
         children: [
-            { path: '', component: DescripcionCursoComponent },
             { path: 'descripcion', component: DescripcionCursoComponent },
             { path: 'contenido', component: VideosCursoComponent },
-            { path: 'material', component: MaterialComponent },
+            { path: 'material', component: MaterialComponent }
         ]
     },
     { path: 'curso', component: CursoCComponent },

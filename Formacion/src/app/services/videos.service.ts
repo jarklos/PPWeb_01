@@ -12,8 +12,8 @@ export class VideoService {
 
     peticionExterna() {
       return this._http.get('http://localhost/PPWeb_01/Api/lista-de-videos.php');
-        console.log('esto viende de la db');
-        console.log(this.videos);
+       // console.log(this.videos);
+       // console.log('BBDD');
 
     }
 
