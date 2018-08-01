@@ -17,16 +17,11 @@ export class HomeComponent implements OnInit {
   }
 
 
-<<<<<<< HEAD
-
-
-=======
   ngOnInit() {
     this._videos.peticionExterna().subscribe((videos) => {
       this.videos = videos;
     });
     console.log(this.videos);
->>>>>>> be4f080a726d6d648e7d72abbecb6f8ae8bdb613
   }
 
 }

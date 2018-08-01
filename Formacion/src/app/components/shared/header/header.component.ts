@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   }
 
   search () {
-    $('#i-search').toggleClass('hidden');
+    //$('#i-search').toggleClass('hidden');
   }
 
 }

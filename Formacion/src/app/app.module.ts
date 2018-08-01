@@ -26,6 +26,7 @@ import { VideosCursoComponent } from './components/cursoC/videos-curso/videos-cu
 import { MaterialComponent } from './components/cursoC/material/material.component';
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
 
 
 
@@ -46,7 +47,8 @@ import { RegistroVComponent } from './components/registro-v/registro-v.component
     VideosCursoComponent,
     MaterialComponent,
     ResetPassComponent,
-    RegistroVComponent
+    RegistroVComponent,
+    AcercadeComponent
   ],
   imports: [
     BrowserModule,
