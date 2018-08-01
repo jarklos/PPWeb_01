@@ -18,9 +18,31 @@ background-position: center;
 background-clip: border-box;
 background-repeat:no-repeat;
 }
-.miniatura{
-
+.Plite{
+    background-color: tomato;
+    border-radius: 10px;
+    margin:5px;
 }
-.miniatura:hover{
-display: none;
+video{
+    border-radius: 2px;
+    margin-top:10px;
+    margin-left: 7px;
+}
+button{
+    border-color: rgba(248, 246, 246, 0.205);
+    background-color: whitesmoke;
+    color:black;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    box-shadow: 1px 2.5px 2px 2.5px rgba(207, 205, 205, 0.164);
+}
+button:hover{
+    border-color: rgba(248, 246, 246, 0.205);
+    background-color: rgb(192, 238, 230);
+    color:black;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    box-shadow: 1px 2.5px 2px 2.5px rgba(207, 205, 205, 0.164);
 }
