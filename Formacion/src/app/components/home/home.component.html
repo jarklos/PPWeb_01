@@ -1,13 +1,69 @@
-<div class="jumbotron">
-  <h1>Curso Promocionado</h1>
-  <p>descripcion</p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Comprar</a></p>
+<div class='padding'>
+<h1>Bienvenido a la <b>Única</b></h1>
+<h1>Comunidad para <b>Psicólogos</b></h1>
+
+<br/>
+
+<h4>¡Necesitarás un psicólogo para poder <span class='resaltado'>entenderlo!</span></h4>
+
+<br />
+
+<button type="button" class='btn btn-resaltado'>VER CURSOS</button>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<h2 class='center'>La única plataforma exclusiva para psicólogos</h2>
+
+<h3 class='center'>ICONOS</h3>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="jumbotron"> <!--*ngFor='let info of informacion' -->
+  <h1>Forma parte de la comunidad</h1> <!--{{ info.titulo }}-->
+  <p class="lead">Aprende a tu Ritmo pero Conectando con otros Psicólogos.</p> 
+  <!--{{ info.subtitulo }}-->
+  <hr class="my-4">
+  <p>
+    Una comunidad orientada a profesionales de la psicología,
+    en la que podrás compartir experiencias y conocimientos con profesores
+    compañeros, investigadores.
+  </p>
+  <p>
+    Podrás acceder a cursos de formación en todo el mundo, e informarte
+    sobre los que se imparten en tu ciudad.
+  </p>
+  <!--{{ info.descripcion }}-->
 </div>
 
+
+
+
+<div class="jumbotron2">
+  <h1>Curso Promocionado</h1>
+  <p>descripcion</p>
+  <p><a class="btn btn-primary btn-lg" routerLink='/curso/:id' role="button">Comprar</a></p>
+</div>
+
+<<<<<<< HEAD
 <div class = "container row">
   <div class="Plite  col-lg-4 col-md-6 col-sm-6 col-sx-12" *ngFor ="let video of videos">
+=======
+<div class = "Plite  container row">
+  <div class= "col-lg-4 col-md-6 col-sm-6 col-sx-12" *ngFor ="let video of videos">
+>>>>>>> be4f080a726d6d648e7d72abbecb6f8ae8bdb613
       <video width="320" height="180" controls poster={{video.imagen_src}}>
-          <source src={{video.video_src}} type="video/mp4">
+          <source src={{this.video.video_src}} type="video/mp4">
           Tu navegador no soporta HTML5 video.
       </video>
       <!--<img class="miniatura" src={{video.imagen_src}} alt="Card image cap">-->
@@ -24,4 +80,5 @@
 
 </div>
 
+</div>
 

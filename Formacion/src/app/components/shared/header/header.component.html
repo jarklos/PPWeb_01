@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<!--  <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" routerLink = ''>
         <div class= "Logo"></div>
     </a>
@@ -10,13 +10,13 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <button routerLink ='/formV'type="#" class="btn-default">Hazte vendedor</button>
-          <!--<a class="nav-link" routerLink = '/lista-de-videos'>Lista de vídeos <span class="sr-only">(current)</span></a>-->
+          <!--<a class="nav-link" routerLink = '/lista-de-videos'>Lista de vídeos <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <button routerLink ='form'type="#" class="btn-default">Registrate</button>
+            <button routerLink ='form' type="#" class="btn-default">Registrate</button>
         </li>
         <select class= "select">
-          <!--Aqui hay que hacer que se cargue de base de datos-->
+          <!--Aqui hay que hacer que se cargue de base de datos
             <option>Categorias</option>
             <option>Psicologia de la buena</option>
             <option>Psicologia de la mala</option>
@@ -26,10 +26,65 @@
       </ul>
 
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
         <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
       </form>
 
       
     </div>
+  </nav> -->
+<div class='header'>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" routerLink = ''>
+      <img src="./../../../../assets/img/logo-rojo.png" class='logo'>
+    </a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link boton" href="#">HAZTE VENDEDOR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link boton" routerLink ='/form'>REGÍSTRATE</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CATEGORÍAS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" routerLink='/curso'>SOCIAL</a>
+            <a class="dropdown-item"  routerLink='/curso'>CLÍNICA</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item"  routerLink='/curso'>BUENAS PRÁCTICAS</a>
+            <a class="dropdown-item"  routerLink='/curso'>CÓDIGO DEONTOLÓGICO</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HERRAMIENTAS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">TOOL 1</a>
+            <a class="dropdown-item" href="#">TOOL 2</a>
+            <a class="dropdown-item" href="#">TOOL 3</a>
+          </div>
+        </li>
+        <li>
+         <button type="button" class='btn favs'><i class="material-icons">favorite_border</i></button>
+        </li>
+        <li>
+          <button type="button" class='btn favs'><i class="material-icons">shopping_cart</i></button>
+        </li>
+        <li>
+          <button type="button" class='btn profile'><i class="material-icons">person_outline</i></button>
+        </li>
+      </ul>
+    </div>
   </nav>
+  <div class='input-group col-3'>
+    <input class="form-control hidden" id='i-search' type="search" placeholder="Buscar" aria-label="Search">
+    <div class="input-group-append">
+      <button type='button' class='input-group-text' id='search' (click)='search()'><i class="material-icons">search</i></button>
+    </div>
+  </div>
+</div>

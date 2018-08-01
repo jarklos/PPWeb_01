@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {VideoService} from '../../services/videos.service';
-import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -10,20 +9,24 @@ import {HttpClient} from '@angular/common/http';
 
 
 export class HomeComponent implements OnInit {
-  videos: any[] = [];
-  public imagePath: string;
-  constructor(private _videos: VideoService, private http: HttpClient) {
-    this.http.get('http://localhost/PPWeb_01/PPWeb_01/Api/lista-de-videos.php')
-    .subscribe((res: any[]) => {
-      this.videos = res;
-      console.log(this.videos);
-    });
+
+  videos;
+
+  constructor(private _videos: VideoService) {
+
   }
 
+
+<<<<<<< HEAD
+
+
+=======
   ngOnInit() {
-
-
-
+    this._videos.peticionExterna().subscribe((videos) => {
+      this.videos = videos;
+    });
+    console.log(this.videos);
+>>>>>>> be4f080a726d6d648e7d72abbecb6f8ae8bdb613
   }
 
 }

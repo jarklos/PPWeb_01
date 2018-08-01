@@ -22,6 +22,9 @@ import { MenuCursoComponent } from './components/cursoC/menu-curso/menu-curso.co
 import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso/descripcion-curso.component';
 import { UserPageComponent } from './components/user-page/user-page.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { VideosCursoComponent } from './components/cursoC/videos-curso/videos-curso.component';
+import { MaterialComponent } from './components/cursoC/material/material.component';
+import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
 
 
@@ -40,6 +43,9 @@ import { RegistroVComponent } from './components/registro-v/registro-v.component
     DescripcionCursoComponent,
     UserPageComponent,
     FooterComponent,
+    VideosCursoComponent,
+    MaterialComponent,
+    ResetPassComponent,
     RegistroVComponent
   ],
   imports: [

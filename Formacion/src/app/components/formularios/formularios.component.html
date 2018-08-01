@@ -2,29 +2,27 @@
 <div class ="formulario" >
   <div class="logo"></div>
   <p>Aprende de los mejores profesionales y<br> 
-    forma parte de la mayor comunidad de<br> psicologos de España.</p>
-  <h1>Hazte miembro hoy mismo!</h1>
+    forma parte de la mayor comunidad de<br> 
+    psicologos de España.</p>
+  <h1>¡Hazte miembro hoy mismo!</h1>
     <form class="container row">
         <div class="form-group col-lg-12 col-md-4 col-sm-6 col-sx-12">
-          <label for="exampleInputEmail1"></label>
-          <input type="text" class="form-control" id="uss" placeholder="Usuario">
+          <label for="uss">Usuario</label>
+          <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Usuario">
         </div>
         <div class="form-group col-lg-12 col-md-4 col-sm-6 col-sx-12">
-          <label for="exampleInputPassword1"></label>
-          <input type="text" class="form-control" id="pss" placeholder="Password" >
+          <label for="pss">Contraseña</label> 
+          <input type="password" class="form-control" name='pss' id="pss" [(ngModel)]='pass' placeholder="Password" >
         </div>
         <div class="checkbox col-lg-12 col-md-4 col-sm-6 col-sx-12">
-          <label>
-            <input type="checkbox"> 
-            <a href ="#">No cerrar sesion</a>
-            <br>
-            <a href="#">¿Has olvidado la contraseña?</a>
-            <br>
-          </label>
-          <button  (click)="llamar()" type="#" class="btn btn-default">Submit</button><br>
-          <a href="#" class="centrado">¿Aun no estas registrado?</a>
-        </div>
-      </form>
+        <input type="checkbox"> <span>No cerrar sesión.</span>
+        <br>
+        <a routerLink='/reset-pass'>¿Has olvidado la contraseña?</a>
+        <br>
+      <button  (click)="llamar(user, pass)" type="#" class="btn btn-default">INICIAR SESIÓN</button><br>
+      <a href="#" class="centrado">¿Aun no estas registrado?</a>
+    </div>
+  </form>
 </div>
 
   
