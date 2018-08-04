@@ -11,6 +11,7 @@ import { MaterialComponent } from './components/cursoC/material/material.compone
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
 import { UserComponent } from './components/user/user.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
 
 const ROUTES: Routes = [
     { path: '', component: HomeComponent },
@@ -28,6 +29,7 @@ const ROUTES: Routes = [
     { path: 'curso', component: CursoCComponent },
     { path: 'formV', component: RegistroVComponent },
     { path: 'user', component: UserComponent},
+    { path: 'acercade', component: AcercadeComponent },
     { path: '**', component: HomeComponent }
 ];
 

@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
 
   }
 
+
   ngOnInit() {
     this._videos.peticionExterna().subscribe((videos) => {
       this.videos = videos;
