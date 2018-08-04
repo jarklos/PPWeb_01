@@ -10,6 +10,7 @@ import { VideosCursoComponent } from './components/cursoC/videos-curso/videos-cu
 import { MaterialComponent } from './components/cursoC/material/material.component';
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
+import { UserComponent } from './components/user/user.component';
 
 const ROUTES: Routes = [
     { path: '', component: HomeComponent },
@@ -26,6 +27,7 @@ const ROUTES: Routes = [
     },
     { path: 'curso', component: CursoCComponent },
     { path: 'formV', component: RegistroVComponent },
+    { path: 'user', component: UserComponent},
     { path: '**', component: HomeComponent }
 ];
 

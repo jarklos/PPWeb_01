@@ -20,12 +20,15 @@ import { CursoCComponent } from './components/cursoC/cursoC.component';
 import { CursoComponent } from './components/cursoC/curso/curso.component';
 import { MenuCursoComponent } from './components/cursoC/menu-curso/menu-curso.component';
 import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso/descripcion-curso.component';
-import { UserPageComponent } from './components/user-page/user-page.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { VideosCursoComponent } from './components/cursoC/videos-curso/videos-curso.component';
 import { MaterialComponent } from './components/cursoC/material/material.component';
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
+import { UserComponent } from './components/user/user.component';
+import { InfoComponent } from './components/user/info/info.component';
+import { CursosUserComponent } from './components/user/cursos-user/cursos-user.component';
+import { InsigniasComponent } from './components/user/insignias/insignias.component';
 
 
 
@@ -41,12 +44,15 @@ import { RegistroVComponent } from './components/registro-v/registro-v.component
     CursoComponent,
     MenuCursoComponent,
     DescripcionCursoComponent,
-    UserPageComponent,
     FooterComponent,
     VideosCursoComponent,
     MaterialComponent,
     ResetPassComponent,
-    RegistroVComponent
+    RegistroVComponent,
+    UserComponent,
+    InfoComponent,
+    CursosUserComponent,
+    InsigniasComponent
   ],
   imports: [
     BrowserModule,
