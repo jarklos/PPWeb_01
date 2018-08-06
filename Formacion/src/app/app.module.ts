@@ -33,6 +33,8 @@ import { UserNewsComponent } from './components/user/user-news/user-news.compone
 import { UserCompradoComponent } from './components/user/user-comprado/user-comprado.component';
 import { UserNavComponent } from './components/user/user-nav/user-nav.component';
 import { UserHistoryComponent } from './components/user/user-history/user-history.component';
+import { PopupComponent } from './components/popup/popup.component';
+
 
 
 
@@ -60,7 +62,9 @@ import { UserHistoryComponent } from './components/user/user-history/user-histor
     UserNewsComponent,
     UserCompradoComponent,
     UserNavComponent,
-    UserHistoryComponent
+    UserHistoryComponent,
+    AcercadeComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
