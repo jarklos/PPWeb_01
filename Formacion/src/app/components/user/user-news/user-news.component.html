@@ -1,0 +1,45 @@
+<div class='news'>
+  <div class='avatar center'>
+    <img src='./../../../../assets//img/logo-y.png'>
+  </div>
+  <div class='campos center'>
+    <span class='micuenta'>MI CUENTA</span>
+
+    <form>
+      <div class="form-group">
+        <label for="email">Notificaciones</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="radio" aria-label="Radio button for following text input">
+            </div>
+          </div>
+          <span class='mail'>psiker@mail.com</span>    
+          <input type="text" class="form-control hidden inputMail" name='email' aria-label="Text input with radio button">
+          <a href='#' class='change' (click)='edit()'>Modificar</a>
+          <a href='#' class='hidden save' (click)='save()'>Guardar</a>
+        </div>
+      </div>
+
+      <div class='form-group'>
+        <label for='suscripcion'>Suscripción</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+            </div>
+          </div>
+          <span>Email semanal</span>
+
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+            </div>
+          </div>
+          <span>Email diario</span>
+       </div>
+      
+      </div>
+    </form>
+  </div>
+</div>

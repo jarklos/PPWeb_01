@@ -1,0 +1,59 @@
+<div class='comprado'>
+
+  <br />
+
+  <div class='inline'>
+    <h5>Tus compras</h5>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-danger active">
+        <input type="radio" name="options" id="mensual" autocomplete="off"> Mensual
+      </label>
+      <label class="btn btn-danger">
+        <input type="radio" name="options" id="mensual" autocomplete="off"> Anual
+      </label>
+    </div>
+  </div>
+
+  <br />
+
+  <table class="table table-borderless">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Fecha de compras</th>
+        <th scope="col" class='center'>Categoría</th>
+        <th scope="col" class='center'>Unidades</th>
+        <th scope="col" class='center'>Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <th scope="row">
+          <img src='./../../../../assets/img/logo-y.png' />
+          <span class='name'>Psiky</span>
+        </th>
+        <td>06 de agosto de 2018</td>
+        <td class='center'><button type='button' class='btn btn-danger cat'>Clínica</button></td>
+        <td class='center'>1</td>
+        <td class='price center'>12€</td>
+      </tr>
+
+    <!--  <tr>
+        <th scope="row">
+          <img src='{{ psi.avatar }}' />
+          <span>{{ psi.name }}</span>
+        </th>
+        <td>{{ psi.dat }}</td>
+        <td>{{ psi.cat }}</td>
+        <td>{{ psi.ud }}</td>
+        <td>{{ psi.price }}</td>
+      </tr> -->
+    </tbody>
+  </table>
+
+  <div class='button'>
+    <button type="button" class="btn btn-outline-secondary">Generar documento</button>
+  </div>
+
+</div>

@@ -1,0 +1,46 @@
+.inline {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.8;
+    justify-content: space-between;
+}
+
+a {
+    color: tomato;
+}
+
+img {
+    border-radius: 100%;
+    width: 50px;
+}
+
+tr, th {
+    color: gray;
+    border: 0;
+}
+
+th {
+    font-weight: 400;
+}
+
+tbody > tr {
+    font-weight: 700;
+    line-height: 3;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.cat {
+    border-radius: 20px;
+    width: 100px;
+}
+
+.price {
+    color: tomato;
+}
+
+.button {
+    text-align: right;
+}

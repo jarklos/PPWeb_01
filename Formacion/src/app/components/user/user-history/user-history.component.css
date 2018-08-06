@@ -1,0 +1,8 @@
+.nav-item {
+    border-bottom: 2px solid tomato;
+}
+
+h5.active {
+    border: 0 !important;
+    font-weight: 700;
+}

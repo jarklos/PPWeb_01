@@ -26,10 +26,13 @@ import { MaterialComponent } from './components/cursoC/material/material.compone
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
 import { UserComponent } from './components/user/user.component';
-import { InfoComponent } from './components/user/info/info.component';
-import { CursosUserComponent } from './components/user/cursos-user/cursos-user.component';
-import { InsigniasComponent } from './components/user/insignias/insignias.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
+import { UserResumeComponent } from './components/user/user-resume/user-resume.component';
+import { UserDetallesComponent } from './components/user/user-detalles/user-detalles.component';
+import { UserNewsComponent } from './components/user/user-news/user-news.component';
+import { UserCompradoComponent } from './components/user/user-comprado/user-comprado.component';
+import { UserNavComponent } from './components/user/user-nav/user-nav.component';
+import { UserHistoryComponent } from './components/user/user-history/user-history.component';
 
 
 
@@ -51,10 +54,13 @@ import { AcercadeComponent } from './components/acercade/acercade.component';
     ResetPassComponent,
     RegistroVComponent,
     UserComponent,
-    InfoComponent,
-    CursosUserComponent,
-    InsigniasComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    UserResumeComponent,
+    UserDetallesComponent,
+    UserNewsComponent,
+    UserCompradoComponent,
+    UserNavComponent,
+    UserHistoryComponent
   ],
   imports: [
     BrowserModule,

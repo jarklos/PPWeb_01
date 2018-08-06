@@ -1,0 +1,53 @@
+#resume {
+    width: 85%;
+    display: inline-flex;
+}
+
+.tittle {
+    width: 100%;
+}
+
+.card {
+    width: 80%;
+    border: 0;
+    color: white;
+    margin-right: 20px;
+}
+
+.card-title {
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+span {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.compras {
+    background: linear-gradient(to right, #f85032 0%, #f16f5c 0%, #f6290c 79%, #f02f17 88%, #e73827 100%);
+}
+
+.productos {
+    background: linear-gradient(to right, #49a5bf 0%, #75bdd1 59%, #93cede 100%);
+}
+
+button {
+    height: 40px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    width: 40%;
+    background: linear-gradient(to right, #f85032 0%, #f16f5c 0%, #f6290c 79%, #f02f17 88%, #e73827 100%);
+}
