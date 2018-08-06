@@ -1,0 +1,67 @@
+<div class='comprado'>
+
+    <br />
+  
+    <div class='inline'>
+      <h5>Tus productos</h5>
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-danger active">
+          <input type="radio" name="options" id="mensual" autocomplete="off"> Mensual
+        </label>
+        <label class="btn btn-danger">
+          <input type="radio" name="options" id="mensual" autocomplete="off"> Anual
+        </label>
+      </div>
+    </div>
+  
+    <br />
+  
+    <table class="table table-borderless">  <!-- Con un *ngIf definir los campos que se muestran -->
+      <thead>
+        <tr>
+          <th scope="col">Productos</th>
+          <th scope="col"class='center'>Ventas</th>
+          <th scope="col" class='center'>Análisis</th>
+          <th scope="col" class='center'>Precio</th>
+          <th scope="col" class='center'>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+  
+        <tr>
+          <td>Curso Presencial</td>
+          <td class='center'>19,200</td>
+          <td class='center'>
+
+            <div style="display: block;">
+            <canvas baseChart width="80" height="20"
+                        [datasets]="lineChartData"
+                        [labels]="lineChartLabels"
+                        [options]="lineChartOptions"
+                        [colors]="lineChartColors"
+                        [legend]="lineChartLegend"
+                        [chartType]="lineChartType"
+                        (chartHover)="chartHovered($event)"
+                        (chartClick)="chartClicked($event)">
+            </canvas>
+            </div>
+
+          </td>
+          <td class='price center'>12€</td>
+          <td>19,200</td>  
+        </tr>
+  
+      <!--  <tr>
+          <th scope="row">
+            <img src='{{ psi.avatar }}' />
+            <span>{{ psi.name }}</span>
+          </th>
+          <td>{{ psi.dat }}</td>
+          <td>{{ psi.cat }}</td>
+          <td>{{ psi.ud }}</td>
+          <td>{{ psi.price }}</td>
+        </tr> -->
+      </tbody>
+    </table>
+  
+  </div>

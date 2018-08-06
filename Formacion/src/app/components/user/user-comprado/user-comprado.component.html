@@ -16,7 +16,7 @@
 
   <br />
 
-  <table class="table table-borderless">
+  <table class="table table-borderless">  <!-- Con un *ngIf definir los campos que se muestran -->
     <thead>
       <tr>
         <th scope="col">Nombre</th>
@@ -24,6 +24,8 @@
         <th scope="col" class='center'>Categoría</th>
         <th scope="col" class='center'>Unidades</th>
         <th scope="col" class='center'>Precio</th>
+        <th scope="col">Estado</th>
+        <th scope="col">On/Off</th>
       </tr>
     </thead>
     <tbody>
@@ -34,9 +36,19 @@
           <span class='name'>Psiky</span>
         </th>
         <td>06 de agosto de 2018</td>
-        <td class='center'><button type='button' class='btn btn-danger cat'>Clínica</button></td>
+        <td class='center'><button type='button' class='btn btn-danger cat'>Presencial</button></td>
         <td class='center'>1</td>
         <td class='price center'>12€</td>
+        <td>Activo</td>
+        <td>
+          <mat-slide-toggle
+            class="onOff"
+            [color]="color"
+            [checked]="checked"
+            [disabled]="disabled">
+          </mat-slide-toggle>
+        </td>
+
       </tr>
 
     <!--  <tr>

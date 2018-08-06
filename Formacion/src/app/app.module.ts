@@ -9,6 +9,16 @@ import { VideoService } from './services/videos.service';
 // Router
 import { APP_ROUTING } from './app.routes';
 
+// Gestures
+import 'hammerjs';
+
+// Material Design
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
+// Charts
+import { ChartsModule } from 'ng2-charts';
+
 // Pages
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -34,6 +44,10 @@ import { UserCompradoComponent } from './components/user/user-comprado/user-comp
 import { UserNavComponent } from './components/user/user-nav/user-nav.component';
 import { UserHistoryComponent } from './components/user/user-history/user-history.component';
 import { PopupComponent } from './components/popup/popup.component';
+import { UserSoldComponent } from './components/user/user-sold/user-sold.component';
+import { UserSoldMenuComponent } from './components/user/user-sold-menu/user-sold-menu.component';
+import { UserDataComponent } from './components/user/user-data/user-data.component';
+import { UserDataMenuComponent } from './components/user/user-data-menu/user-data-menu.component';
 
 
 
@@ -64,13 +78,20 @@ import { PopupComponent } from './components/popup/popup.component';
     UserNavComponent,
     UserHistoryComponent,
     AcercadeComponent,
-    PopupComponent
+    PopupComponent,
+    UserSoldComponent,
+    UserSoldMenuComponent,
+    UserDataComponent,
+    UserDataMenuComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTING,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule,
+    ChartsModule
   ],
   providers: [
     VideoService
