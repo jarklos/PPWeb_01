@@ -12,11 +12,13 @@ import { ResetPassComponent } from './components/reset-pass/reset-pass.component
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
 import { UserComponent } from './components/user/user.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
+import {PopupComponent} from './components/popup/popup.component';
 
 const ROUTES: Routes = [
     { path: '', component: HomeComponent },
     { path: 'lista-de-videos', component: ListaDeVideosComponent },
     { path: 'video-player', component: VideoPlayerComponent },
+    { path: 'popUp', component: PopupComponent },
     { path: 'form', component: FormulariosComponent },
     { path: 'reset-pass', component: ResetPassComponent },
     { path: 'curso/:id', component: CursoCComponent,

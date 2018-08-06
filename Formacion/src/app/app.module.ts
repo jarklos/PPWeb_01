@@ -30,6 +30,8 @@ import { InfoComponent } from './components/user/info/info.component';
 import { CursosUserComponent } from './components/user/cursos-user/cursos-user.component';
 import { InsigniasComponent } from './components/user/insignias/insignias.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
+import { PopupComponent } from './components/popup/popup.component';
+
 
 
 
@@ -54,7 +56,8 @@ import { AcercadeComponent } from './components/acercade/acercade.component';
     InfoComponent,
     CursosUserComponent,
     InsigniasComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
