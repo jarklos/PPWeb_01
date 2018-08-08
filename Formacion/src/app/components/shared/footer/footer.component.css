@@ -5,6 +5,7 @@
     background-size: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 150px;
 }
 
 i {
@@ -22,7 +23,7 @@ i {
     width: 30%;
 }
 
-p{
+p {
     color:darkslategray;
     position: relative;
     text-transform: lowercase;
@@ -32,7 +33,7 @@ p{
     margin-bottom: 0;
 }
 
-h1{
+h1 {
     margin-top:5%;
     font-size: 150%;
     text-transform: capitalize;

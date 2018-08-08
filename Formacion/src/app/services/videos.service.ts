@@ -25,9 +25,9 @@ export class VideoService {
          console.log(this.user);
          return users;
       },
-    error => {
-      console.log('Error');
-    });
+      error => {
+        console.log('Error');
+      });
     }
 
 }
