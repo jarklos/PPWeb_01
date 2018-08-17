@@ -1,6 +1,6 @@
 <?php
 
-	/* Usa una conexion global llamada $mysqli, cambviar por la definitiva */
+	/* Usa una conexion global llamada $mysqli, cambiar por la definitiva */
 
 	if(!$_SERVER['REQUEST_METHOD']==='GET'){		
 		header('HTTP/1.1 405 Method Not Allowed');
