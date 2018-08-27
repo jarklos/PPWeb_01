@@ -14,7 +14,6 @@ export class VideoService {
       return this._http.get('http://localhost/PPWeb_01/Api/lista-de-videos.php');
        // console.log(this.videos);
        // console.log('BBDD');
-
     }
 
     peticionLogin(uss, pss) {
@@ -29,5 +28,4 @@ export class VideoService {
         console.log('Error');
       });
     }
-
 }

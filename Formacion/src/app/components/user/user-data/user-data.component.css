@@ -1,0 +1,41 @@
+.resumen {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+.resumen > .card {
+    height: 100px;
+    width: 34%;
+}
+
+.card-subtitle {
+    font-size: 0.8em;
+}
+
+.resumen > .card-body > p {
+    margin-bottom: 0;
+}
+
+.progress {
+    height: 0.5rem;
+}
+
+.progress-bar {
+    background-color: tomato;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 32%;
+}
+
+td > span {
+    font-weight: bold;
+    color: tomato;
+}
