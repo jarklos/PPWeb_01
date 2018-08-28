@@ -44,11 +44,10 @@ span {
 }
 
 button {
-    align-self: flex-end;
     height: 40px;
-    width: 40%;
     color: white;
     border: 0;
     border-radius: 20px;
+    width: 40%;
     background: linear-gradient(to right, #f85032 0%, #f16f5c 0%, #f6290c 79%, #f02f17 88%, #e73827 100%);
 }
