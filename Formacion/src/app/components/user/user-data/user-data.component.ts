@@ -12,6 +12,7 @@ export class UserDataComponent implements OnInit {
   ngOnInit() {
   }
 
+<<<<<<< HEAD
   //Bars
   public barChartOptions:any = {
     scaleShowVerticalLines: false,
@@ -56,4 +57,6 @@ export class UserDataComponent implements OnInit {
 
   }
 
+=======
+>>>>>>> f3528c67933d25cf0c46ff2e00e9577659382ec4
 }
