@@ -25,6 +25,12 @@ export class UserDataComponent implements OnInit {
     {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'}
   ];
 
+
+   // Doughnut
+   public doughnutChartLabels:string[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
+   public doughnutChartData:number[] = [350, 450, 100];
+   public doughnutChartType:string = 'doughnut';
+
   // events
   public chartClicked(e:any):void {
     console.log(e);
@@ -48,20 +54,6 @@ export class UserDataComponent implements OnInit {
     clone[0].data = data;
     this.barChartData = clone;
 
-
-   // Doughnut
-   public doughnutChartLabels:string[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
-   public doughnutChartData:number[] = [350, 450, 100];
-   public doughnutChartType:string = 'doughnut';
-  
-   // events
-   public chartClicked(e:any):void {
-     console.log(e);
-   }
-  
-   public chartHovered(e:any):void {
-     console.log(e);
-   }
-
+  }
 
 }
