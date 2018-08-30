@@ -25,13 +25,21 @@ h1{
     color:black;
 }
 
+h5 {
+    color: #777777;
+}
+
 .resaltado {
-    color: tomato;
+    color: #ff5a6b;
 }
 
 .btn-resaltado {
-    background: tomato;
+    background-image: linear-gradient(to right, #ff5a6b, #ff4a2a);
     color: white;
+    font-size: 1.2em;
+    padding: 13px;
+    border-radius: 12px;
+    box-shadow: 0px 7px 15px 3px lightgrey;
 }
 
 .center {
@@ -49,4 +57,12 @@ h1{
 
 .padding-15 {
     padding: 15px;
+}
+
+.box-shadow {
+    box-shadow: 0px 7px 15px 3px lightgrey;
+}
+
+.padding2 {
+    padding: 2%;
 }

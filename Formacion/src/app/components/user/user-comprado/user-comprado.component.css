@@ -5,6 +5,17 @@
     justify-content: space-between;
 }
 
+.btn {
+    border: 1px solid #777777;
+    color: #777777;
+}
+
+.active {
+    background-color: #cc3b21;
+    border: none;
+    color: white;
+}
+
 a {
     color: tomato;
 }

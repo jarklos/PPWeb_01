@@ -9,6 +9,17 @@ a {
     color: tomato;
 }
 
+.btn {
+    border: 1px solid #777777;
+    color: #777777;
+}
+
+.active {
+    background-color: #cc3b21;
+    color: white;
+    border: none;
+}
+
 img {
     border-radius: 100%;
     width: 50px;

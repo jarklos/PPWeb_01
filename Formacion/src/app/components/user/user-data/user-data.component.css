@@ -40,6 +40,10 @@ td > span {
     color: tomato;
 }
 
+tr:first-of-type > td {
+    border-top: 0;
+}
+
 td {
-    vertical-align: center;
+    vertical-align: middle;
 }

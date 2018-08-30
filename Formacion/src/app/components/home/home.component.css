@@ -21,11 +21,11 @@
     text-align: center;
 }
 .thumbnail{
-background-image: url("../../../assets/img/jumbo1.jpg");
-background-size:cover;
-background-position: center;
-background-clip: border-box;
-background-repeat:no-repeat;
+    background-image: url("../../../assets/img/jumbo1.jpg");
+    background-size:cover;
+    background-position: center;
+    background-clip: border-box;
+    background-repeat:no-repeat;
 }
 .Plite{
     background-color: tomato;
@@ -38,25 +38,29 @@ video{
     margin-left: 7px;
 }
 button{
-    border-color: rgba(248, 246, 246, 0.205);
-    background-color: whitesmoke;
-    color:black;
     border-radius: 10px;
     margin-left: 2%;
     margin-bottom: 10px;
-    box-shadow: 1px 2.5px 2px 2.5px rgba(207, 205, 205, 0.164);
 }
 button:hover{
-    border-color: rgba(248, 246, 246, 0.205);
-    background-color: rgb(192, 238, 230);
-    color:black;
     border-radius: 10px;
     margin-left: 2%;
     margin-bottom: 10px;
-    box-shadow: 1px 2.5px 2px 2.5px rgba(207, 205, 205, 0.164);
 }
 
 .miniatura:hover {
     display: none;
 }
 
+.dibujoPortada {
+    position: absolute;
+    top: 109px;
+    right: -323px;
+    width: 73%;
+    height: 58%;
+    background-image: url('./../../../assets/img/DibujoPortada.svg');
+    background-repeat: no-repeat;
+    background-size: 96%;
+    background-position-y: -270px;
+    background-position-x: 100px;
+}

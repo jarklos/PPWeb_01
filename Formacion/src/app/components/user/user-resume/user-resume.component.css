@@ -44,6 +44,7 @@ span {
 }
 
 button {
+    align-self: flex-end;
     height: 40px;
     color: white;
     border: 0;

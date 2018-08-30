@@ -12,7 +12,8 @@ import { ResetPassComponent } from './components/reset-pass/reset-pass.component
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
 import { UserComponent } from './components/user/user.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
-import {PopupComponent} from './components/popup/popup.component';
+import { PopupComponent } from './components/popup/popup.component';
+import { Error404Component } from './components/errors/error404/error404.component';
 
 const ROUTES: Routes = [
     { path: '', component: HomeComponent },
@@ -32,7 +33,7 @@ const ROUTES: Routes = [
     { path: 'formV', component: RegistroVComponent },
     { path: 'user', component: UserComponent},
     { path: 'acercade', component: AcercadeComponent },
-    { path: '**', component: HomeComponent }
+    { path: '**', component: Error404Component }
 ];
 
 export const APP_ROUTING = RouterModule.forRoot(ROUTES);
