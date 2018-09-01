@@ -49,6 +49,7 @@ import { UserSoldMenuComponent } from './components/user/user-sold-menu/user-sol
 import { UserDataComponent } from './components/user/user-data/user-data.component';
 import { UserDataMenuComponent } from './components/user/user-data-menu/user-data-menu.component';
 import { Error404Component } from './components/errors/error404/error404.component';
+import { CompraComponent } from './compra/compra.component';
 
 
 
@@ -84,7 +85,8 @@ import { Error404Component } from './components/errors/error404/error404.compone
     UserSoldMenuComponent,
     UserDataComponent,
     UserDataMenuComponent,
-    Error404Component
+    Error404Component,
+    CompraComponent
   ],
   imports: [
     BrowserModule,
