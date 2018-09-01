@@ -121,6 +121,10 @@ p {
     padding: 0;
 }
 
+.videos {
+    display: inline-flex;
+}
+
 .videos > p, h5 {
     margin: 0;
 }

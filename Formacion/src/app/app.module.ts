@@ -50,6 +50,8 @@ import { UserDataComponent } from './components/user/user-data/user-data.compone
 import { UserDataMenuComponent } from './components/user/user-data-menu/user-data-menu.component';
 import { Error404Component } from './components/errors/error404/error404.component';
 import { CompraComponent } from './compra/compra.component';
+import { Error500Component } from './components/errors/error500/error500.component';
+import { Error503Component } from './components/errors/error503/error503.component';
 
 
 
@@ -86,7 +88,9 @@ import { CompraComponent } from './compra/compra.component';
     UserDataComponent,
     UserDataMenuComponent,
     Error404Component,
-    CompraComponent
+    CompraComponent,
+    Error500Component,
+    Error503Component
   ],
   imports: [
     BrowserModule,

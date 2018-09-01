@@ -10,7 +10,7 @@ import {VideoService} from '../../services/videos.service';
 
 export class HomeComponent implements OnInit {
 
-  videos;
+  videos: any;
 
   constructor(private _videos: VideoService) {
 
@@ -18,8 +18,9 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit() {
-    this._videos.peticionExterna().subscribe((videos) => {
-      this.videos = videos;
+    this._videos.peticionExterna().subscribe((resp: any) => {
+      console.log(resp);
+      this.videos = resp;
     });
     console.log(this.videos);
   }
