@@ -27,7 +27,7 @@
     margin-left: 35%;
 }
 .Marcador{
-    background-color: red;
+    background-color: tomato;
     margin-top:5%;
     border-radius: 20px;
     margin-left: 30%;
@@ -35,8 +35,25 @@
 }
 .MarcadorActivo{
     background-color: white;
-    
     margin-top:5%;
     border-radius: 20px;
     margin-left: 30%;
+}
+.miBoton{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    background-color: tomato;
+    border-style: none;
+    color:white;
+    padding: 4px,4px;
+}
+.miBoton:hover{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    background-color: white;
+    border-style: none;
+    color:tomato;
+    padding: 4px,4px;
 }

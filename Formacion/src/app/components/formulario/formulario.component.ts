@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CompraComponent } from '../../compra/compra.component';
 
 @Component({
   selector: 'app-formulario',
@@ -6,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./formulario.component.css']
 })
 export class FormularioComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
