@@ -52,6 +52,7 @@ import { Error404Component } from './components/errors/error404/error404.compone
 import { CompraComponent } from './compra/compra.component';
 import { Error500Component } from './components/errors/error500/error500.component';
 import { Error503Component } from './components/errors/error503/error503.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 
 
@@ -90,7 +91,8 @@ import { Error503Component } from './components/errors/error503/error503.compone
     Error404Component,
     CompraComponent,
     Error500Component,
-    Error503Component
+    Error503Component,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

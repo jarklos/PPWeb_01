@@ -1,0 +1,44 @@
+<div>
+    <h1 class="Titulo col-lg-12" >Tus datos</h1>
+    <form class ="container row">
+      <div class= "entrada col-lg-6 ">
+        <span>Nombre</span>
+        <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Nombre">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Apellidos</span>
+          <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Apellidos">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Pais</span>
+          <label for="country_name"></label>
+          <input  class="form-control" id="country_name" name="country_name" type="text" list="country" />
+          <datalist id="country">
+             <option value="España">
+          </datalist>
+        </div>  
+      <div class= "entrada col-lg-6 ">
+          <span>Provincia</span>
+          <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Provincia">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Domicilio</span>
+          <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Domicilio">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Codigo Postal</span>
+          <input type="number" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="CP">
+        </div>
+        <div class= "entrada col-lg-6 ">
+            <span>Email</span>
+            <input type="email" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Email">
+        </div>
+        <div class= "entrada col-lg-6 ">
+            <span>Telefono</span>
+            <input type="number" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Usuario">
+        </div>  
+        
+    </form>
+    <input class="Box" type="checkbox"><span>Guarda mis datos para proximas compras.</span>
+    <button class="miBoton">Siguiente</button>
+</div>

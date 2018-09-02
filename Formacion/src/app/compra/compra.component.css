@@ -6,6 +6,11 @@
     background-color: white;
     
 }
+.principal{
+    font-size: 18px;
+    margin-top: 10%;
+    
+}
 .Logo{
     border-style: solid;
     margin-top:15%;
@@ -22,35 +27,16 @@
     margin-left: 35%;
 }
 .Marcador{
-    background-color: rgb(192, 192, 192);
+    background-color: red;
     margin-top:5%;
     border-radius: 20px;
     margin-left: 30%;
 
 }
-.Titulo{
-    margin-top:15%;
-    margin-left: 30%;
-    margin-bottom: 15%;
-}
-.Box{
-    margin-top: 10%;
-}
-.miBoton{
-    margin-left: 10%;
-    margin-bottom: 10%;
-    border-radius: 25px;
-    background-color: tomato;
-    border-style: none;
-    color:white;
-    padding: 4px,4px;
-}
-.miBoton:hover{
-    margin-left: 10%;
-    margin-bottom: 10%;
-    border-radius: 25px;
+.MarcadorActivo{
     background-color: white;
-    border-style: none;
-    color:tomato;
-    padding: 4px,4px;
+    
+    margin-top:5%;
+    border-radius: 20px;
+    margin-left: 30%;
 }
