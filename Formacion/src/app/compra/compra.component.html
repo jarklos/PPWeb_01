@@ -1,3 +1,72 @@
-<p>
-  compra works!
-</p>
+<div class="back container row">
+  <div class="Derecha col-lg-6 col-sx-12">
+    <img class=" Logo col-lg-12" src="../../../../Api/uploads/logo.png" alt="Logo">
+    <div class="Botones col-lg-8">
+      <div class="Marcador col-lg-12">
+        <div class="container row">
+            <img class="col-lg-2" src="../../../../Api/uploads/logo.png" alt="Logo"> 
+            <h2 class="col-lg-10">Tus Datos</h2>
+        </div>
+        <p class="col-lg-12">Porfavor Introduce tus datos</p>
+      </div>
+      <div class="Marcador col-lg-12">
+          <div class="container row">
+              <img class="col-lg-2" src="../../../../Api/uploads/logo.png" alt="Logo">
+              <h1 class="col-lg-10">Texto</h1>
+          </div>
+          <p class="col-lg-12">Sub texto</p>
+        </div>
+        <div class="Marcador col-lg-12">
+            <div class="container row">
+                <img class="col-lg-2" src="../../../../Api/uploads/logo.png" alt="Logo">
+                <h1 class="col-lg-10">Texto</h1>
+            </div>
+            <p class="col-lg-12">Sub texto</p>
+          </div>
+    </div>
+  </div>
+  <div class="Izquierda col-lg-6 col-sx-12">
+    <h1 class="Titulo col-lg-12" >Tus datos</h1>
+    <form class ="container row">
+      <div class= "entrada col-lg-6 ">
+        <span>Nombre</span>
+        <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Nombre">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Apellidos</span>
+          <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Apellidos">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Pais</span>
+          <label for="country_name"></label>
+          <input  class="form-control" id="country_name" name="country_name" type="text" list="country" />
+          <datalist id="country">
+             <option value="España">
+          </datalist>
+        </div>  
+      <div class= "entrada col-lg-6 ">
+          <span>Provincia</span>
+          <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Provincia">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Domicilio</span>
+          <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Domicilio">
+      </div>
+      <div class= "entrada col-lg-6 ">
+          <span>Codigo Postal</span>
+          <input type="number" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="CP">
+        </div>
+        <div class= "entrada col-lg-6 ">
+            <span>Email</span>
+            <input type="email" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Email">
+        </div>
+        <div class= "entrada col-lg-6 ">
+            <span>Telefono</span>
+            <input type="number" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Usuario">
+        </div>  
+        
+    </form>
+    <input class="Box" type="checkbox"><span>Guarda mis datos para proximas compras.</span>
+    <button class="miBoton">Siguiente</button>
+  </div>
+</div>
