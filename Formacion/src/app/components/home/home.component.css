@@ -45,6 +45,15 @@ h2 {
     color: black;
 }
 
+.text-img {
+    display: flex;
+    margin-top: 150px;
+}
+
+.text-img > img {
+    width: 50%;
+}
+
 .jumbotron {
     width: 100%;
 }
@@ -135,4 +144,10 @@ p {
 
 .type {
     text-transform: uppercase;
+}
+
+.lite {
+    padding: 0 5px;
+    background-color: #ff4a2a;
+    color: white;
 }
