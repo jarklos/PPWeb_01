@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgModule } from '@angular/core';
 
 // Services
 import { HttpClientModule } from '@angular/common/http';
+import { PaisesService } from './services/paises.service';
+import { UsuariosService } from './services/usuarios.service';
 import { VideoService } from './services/videos.service';
 
 // Router
@@ -49,12 +51,11 @@ import { UserSoldMenuComponent } from './components/user/user-sold-menu/user-sol
 import { UserDataComponent } from './components/user/user-data/user-data.component';
 import { UserDataMenuComponent } from './components/user/user-data-menu/user-data-menu.component';
 import { Error404Component } from './components/errors/error404/error404.component';
-import { CompraComponent } from './compra/compra.component';
+import { CompraComponent } from './components/compra/compra.component';
 import { Error500Component } from './components/errors/error500/error500.component';
 import { Error503Component } from './components/errors/error503/error503.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
-
-
+import { FormUsuarioComponent } from './components/form-usuario/form-usuario.component';
 
 
 @NgModule({
@@ -92,7 +93,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     CompraComponent,
     Error500Component,
     Error503Component,
-    FormularioComponent
+    FormularioComponent,
+    FormUsuarioComponent
   ],
   imports: [
     BrowserModule,
@@ -104,6 +106,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     ChartsModule
   ],
   providers: [
+    PaisesService,
+    UsuariosService,
     VideoService
   ],
   bootstrap: [AppComponent]

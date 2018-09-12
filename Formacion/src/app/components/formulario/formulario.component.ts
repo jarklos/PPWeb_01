@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {CompraComponent } from '../../compra/compra.component';
+import {CompraComponent } from '../../components/compra/compra.component';
 
 @Component({
   selector: 'app-formulario',

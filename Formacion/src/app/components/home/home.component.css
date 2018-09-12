@@ -76,6 +76,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    text-align: right;
 }
 
 .thumbnail {
@@ -100,12 +101,6 @@ video {
 
 button {
     border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-button:hover {
-    border-radius: 10px;
-    margin-left: 2%;
     margin-bottom: 10px;
 }
 

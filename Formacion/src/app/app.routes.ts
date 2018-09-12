@@ -14,7 +14,7 @@ import { UserComponent } from './components/user/user.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { PopupComponent } from './components/popup/popup.component';
 import { Error404Component } from './components/errors/error404/error404.component';
-import { CompraComponent } from './compra/compra.component';
+import { CompraComponent } from './components/compra/compra.component';
 
 const ROUTES: Routes = [
     { path: '', component: HomeComponent },
@@ -34,7 +34,7 @@ const ROUTES: Routes = [
     { path: 'formV', component: RegistroVComponent },
     { path: 'user', component: UserComponent},
     { path: 'acercade', component: AcercadeComponent },
-    {path: 'compra', component: CompraComponent},
+    { path: 'compra', component: CompraComponent },
     { path: '**', component: Error404Component }
 ];
 
