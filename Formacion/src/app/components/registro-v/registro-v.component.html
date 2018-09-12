@@ -1,28 +1,61 @@
-<div class="back"></div>
-<div class ="formulario" >
-  <div class="logo"></div>
-  <p>Aprende de los mejores profesionales y<br> 
-    forma parte de la mayor comunidad de<br> psicologos de España.</p>
-  <h1>Hazte miembro hoy mismo!</h1>
-    <form class="container row">
-        <div class="form-group col-lg-12 col-md-4 col-sm-6 col-sx-12">
-          <label for="exampleInputEmail1"></label>
-          <input type="text" class="form-control" id="uss" placeholder="Usuario">
-        </div>
-        <div class="form-group col-lg-12 col-md-4 col-sm-6 col-sx-12">
-          <label for="exampleInputPassword1"></label>
-          <input type="text" class="form-control" id="pss" placeholder="Password" >
-        </div>
-        <div class="checkbox col-lg-12 col-md-4 col-sm-6 col-sx-12">
-          <label>
-            <input type="checkbox"> 
-            <a href ="#">No cerrar sesion</a>
-            <br>
-            <a href="#">¿Has olvidado la contraseña?</a>
-            <br>
-          </label>
-          <button  (click)="llamar()" type="#" class="btn btn-default">Submit</button><br>
-          <a href="#" class="centrado">¿Aun no estas registrado?</a>
-        </div>
-      </form>
+<div class="back">
+  <div class ="formulario container row">
+      <div class="Derecha col-lg-6">
+          <img src="./../../../../assets/img/logo-rojo.png" class='logo col-lg-12'>
+        <!--Parrafo-->
+        <p>Aprende de los mejores profesionales y<br> 
+          forma parte de la mayor comunidad de<br>
+          psicologos de España.</p>
+        <h1>Hazte miembro hoy mismo!</h1> 
+      </div>
+      <div class="Izquierda  col-lg-6">
+          <form class="container row">
+            <div class= "entrada col-lg-6 ">
+              <span>Nombre</span>
+              <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='Nombre' placeholder="Nombre">
+            </div>
+            <div class= "entrada col-lg-6 ">
+                <span>Apellidos</span>
+                <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='Apellido' placeholder="Apellidos">
+            </div>
+            <div class= "entrada col-lg-6 ">
+                <span>Pais</span>
+                <label for="country_name"></label>
+                <input  class="form-control" id="country_name" name="country_name" type="text" list="country" />
+                <datalist id="country">
+                    <option value="España">
+                </datalist>
+              </div>  
+            <div class= "entrada col-lg-6 ">
+                <span>Provincia</span>
+                <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='Provincia' placeholder="Provincia">
+            </div>
+            <div class= "entrada col-lg-6 ">
+                <span>Domicilio</span>
+                <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='Domicilio' placeholder="Domicilio">
+            </div>
+            <div class= "entrada col-lg-6 ">
+                <span>Codigo Postal</span>
+                <input type="number" class="form-control" name='uss' id="uss" [(ngModel)]='CP' placeholder="CP">
+              </div>
+              <div class= "entrada col-lg-6 ">
+                  <span>Email</span>
+                  <input type="email" class="form-control" name='uss' id="uss" [(ngModel)]='Email' placeholder="Email">
+              </div>
+              <div class= "entrada col-lg-6 ">
+                  <span>Telefono</span>
+                  <input type="number" class="form-control" name='uss' id="uss" [(ngModel)]='Telefono' placeholder="Telefono">
+              </div>  
+              <div class= "entrada col-lg-6 ">
+                  <span>Usuario</span>
+                  <input type="text" class="form-control" name='uss' id="uss" [(ngModel)]='user' placeholder="Usuario">
+                </div>
+                <div class= "entrada col-lg-6 ">
+                    <span>Contraseña</span>
+                    <input type="password" class="form-control" name='uss' id="uss" [(ngModel)]='pass' placeholder="Contraseña">
+                  </div>
+                    
+                </form>
+      </div>
 </div>
+ 
