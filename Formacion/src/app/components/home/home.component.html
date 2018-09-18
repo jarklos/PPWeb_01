@@ -116,12 +116,19 @@
       <h5 class="card-title">{{ video.titulo }}</h5>
       <p class="card-text"><small class="text-muted date">Hace 2 días / Pepita </small></p>
       <p class="card-text">{{ video.descripcion }}</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <span>
+        <i class="material-icons resaltado">favorite_border</i>
+        <i class="material-icons resaltado">share</i>
+        <i class="material-icons resaltado">cloud_download</i>
+        <i class="material-icons resaltado">add_shopping_cart</i>
+      </span>
+      <br>
+      <span class='space'>
+        <a href="#" class="btn btn-primary dis">CURSO{{ video.tipo}}</a>
+        <span class='resaltado price'>35€{{ video.price }}</span>
+      </span>
     </div>
   </div>
 </div>
-
-
-
 
 

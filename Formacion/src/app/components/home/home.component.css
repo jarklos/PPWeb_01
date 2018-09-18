@@ -146,3 +146,20 @@ p {
     background-color: #ff4a2a;
     color: white;
 }
+
+span.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dis {
+    padding: 3px;
+    background: lightgray;
+    color: white;
+    border: 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
