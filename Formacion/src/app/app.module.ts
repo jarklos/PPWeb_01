@@ -8,6 +8,9 @@ import { PaisesService } from './services/paises.service';
 import { UsuariosService } from './services/usuarios.service';
 import { VideoService } from './services/videos.service';
 
+// Models
+import { User } from './models/user.model';
+
 // Router
 import { APP_ROUTING } from './app.routes';
 
@@ -28,13 +31,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { ListaDeVideosComponent } from './components/lista-de-videos/lista-de-videos.component';
 import { VideoPlayerComponent } from './components/video-player/video-player.component';
 import { FormulariosComponent } from './components/formularios/formularios.component';
-import { CursoCComponent } from './components/cursoC/cursoC.component';
-import { CursoComponent } from './components/cursoC/curso/curso.component';
-import { MenuCursoComponent } from './components/cursoC/menu-curso/menu-curso.component';
-import { DescripcionCursoComponent } from './components/cursoC/descripcion-curso/descripcion-curso.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
-import { VideosCursoComponent } from './components/cursoC/videos-curso/videos-curso.component';
-import { MaterialComponent } from './components/cursoC/material/material.component';
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
 import { RegistroVComponent } from './components/registro-v/registro-v.component';
 import { UserComponent } from './components/user/user.component';
@@ -54,7 +51,6 @@ import { Error404Component } from './components/errors/error404/error404.compone
 import { CompraComponent } from './components/compra/compra.component';
 import { Error500Component } from './components/errors/error500/error500.component';
 import { Error503Component } from './components/errors/error503/error503.component';
-import { FormularioComponent } from './components/formulario/formulario.component';
 import { FormUsuarioComponent } from './components/form-usuario/form-usuario.component';
 
 
@@ -66,13 +62,7 @@ import { FormUsuarioComponent } from './components/form-usuario/form-usuario.com
     VideoPlayerComponent,
     HomeComponent,
     FormulariosComponent,
-    CursoCComponent,
-    CursoComponent,
-    MenuCursoComponent,
-    DescripcionCursoComponent,
     FooterComponent,
-    VideosCursoComponent,
-    MaterialComponent,
     ResetPassComponent,
     RegistroVComponent,
     UserComponent,
@@ -93,7 +83,6 @@ import { FormUsuarioComponent } from './components/form-usuario/form-usuario.com
     CompraComponent,
     Error500Component,
     Error503Component,
-    FormularioComponent,
     FormUsuarioComponent
   ],
   imports: [
@@ -107,6 +96,7 @@ import { FormUsuarioComponent } from './components/form-usuario/form-usuario.com
   ],
   providers: [
     PaisesService,
+    User,
     UsuariosService,
     VideoService
   ],

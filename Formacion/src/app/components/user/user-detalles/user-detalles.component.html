@@ -2,71 +2,9 @@
 
   <div class='inline'>
     <h5>Detalles de mi cuenta</h5> 
-    <a href="#">Modificar</a>
+    <a class='btn resaltado' (click)='edit()'>{{ modificar }}</a>
   </div>
 
-  <hr />
-
-  <form class='padding2'>
-   <div class='input-area'> 
-    <label for='name'>Tu nombre</label>
-    <input type="text" name='name' [(ngModel)]='name' disabled>
-  </div>
-  
-  <div class='input-area'>
-    <label for='surname'>Apellidos</label>
-    <input type="text" name='surname' [(ngModel)]='surname' disabled>
-  </div>
-  
-  <div class='input-area inline'>
-    <label for='country'>País</label>
-    <div class='inline'>
-      <input type="text" name='country' [(ngModel)]='country' disabled>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"disabled>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class='input-area'>
-    <label for='province'>Provincia</label>
-    <div class='inline'>
-      <input type="text" name='province' [(ngModel)]='province' disabled>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class='input-area'>
-    <label for='address'>Domicilio</label>
-    <input type="text" name='address' [(ngModel)]='address' disabled>
-  </div>
-  
-  <div class='input-area'>
-    <label for='zip'>Código postal</label>
-    <input type="number" name='zip' [(ngModel)]='zip' disabled>
-  </div>
-  
-  <div class='input-area'>
-    <label for='mail'>Email</label>
-    <input type="email" name='mail' [(ngModel)]='mail' disabled>
-  </div>
-  
-  <div class='input-area'>
-    <label for='phone'>Teléfono</label>
-    <input type="number" name='phone' [(ngModel)]='phone' disabled>
-  </div>
-  
-  </form>
+  <hr />  
+  <app-form-usuario></app-form-usuario>
 </div>

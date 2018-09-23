@@ -8,30 +8,28 @@ import { StaticInjector } from '../../../../../node_modules/@angular/core/src/di
 })
 export class UserDetallesComponent implements OnInit {
 
-  name: string;
-  surname: string;
-  country: string;
-  province: string;
-  address: string;
-  zip: number;
-  mail: string;
-  phone: number;
-
+  modificar: string;
 
   constructor() {
-    this.name = 'Pepito';
-    this.surname = 'Pérez';
-    this.country = 'España';
-    this.province = 'Madrid';
-    this.address = 'Calle Mayor, 1';
-    this.zip = 28001;
-    this.mail  = 'pepitoperez@mail.com';
-    this.phone = 666666666;
-
-
-  }
+    this.modificar = 'Modificar';
+   }
 
   ngOnInit() {
+  }
+
+  edit() {
+    const input = document.getElementsByTagName('input');
+    for (let i of input) {
+      if (i.readOnly == true) {
+        console.log(i);
+        i.readOnly = false;
+        this.modificar = 'Guardar';
+      } else {
+        i.readOnly = true;
+        this.modificar = 'Modificar';
+      }
+
+    }
   }
 
 }

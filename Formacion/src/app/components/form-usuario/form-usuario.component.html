@@ -10,14 +10,14 @@
      <input type="text" name='surname' [(ngModel)]='user.apellidos'>
    </div>
    
-   <div class='input-area inline'>
+   <div class='input-area'>
      <label for='country'>País</label>
      <select class="form-control" id='pais' [(ngModel)]='user.pais' #pais='ngModel' name="pais">
       <option *ngFor='let pais of paises' [value]='pais'>{{ pais.translations.es }}</option>
     </select>
    </div>
    
-  <div class='input-area inline'>
+  <div class='input-area'>
     <label for='country'>Provincia</label>
     <select class="form-control" [(ngModel)]='user.provincia' #provincia='ngModel' name="provincia">
       <option *ngFor='let provincia of provincias' [value]='provincia'>{{ pais.translations.es }}</option>
@@ -49,7 +49,7 @@
    </form>
 
   <div [hidden]="!submitted">
-    <h2>You submitted the following:</h2>
+    <h2>Datos enviados:</h2>
     Nombre: {{ user.nombre }}
     Apellidos: {{ user.apellidos }}
     País: {{ user.pais }}
