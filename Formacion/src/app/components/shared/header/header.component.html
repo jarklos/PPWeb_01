@@ -1,38 +1,3 @@
-<!--  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" routerLink = ''>
-        <div class= "Logo"></div>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <button routerLink ='/formV'type="#" class="btn-default">Hazte vendedor</button>
-          <!--<a class="nav-link" routerLink = '/lista-de-videos'>Lista de vídeos <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <button routerLink ='form' type="#" class="btn-default">Registrate</button>
-        </li>
-        <select class= "select">
-          <!--Aqui hay que hacer que se cargue de base de datos
-            <option>Categorias</option>
-            <option>Psicologia de la buena</option>
-            <option>Psicologia de la mala</option>
-          </select>
-          <button class="btn1 btn-outline-light my-2 my-sm-0" type="submit"><i class="far fa-heart"></i></button>
-          <button class="btn1 btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-shopping-cart"></i></button>
-      </ul>
-
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-      </form>
-
-      
-    </div>
-  </nav> -->
 <div class='header'>
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" routerLink = ''>
@@ -42,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link boton" href="/formV">Registro</a>
+          <a class="nav-link boton" [routerLink]="['/registro']" routerLinkActive="router-link-active" >Registro</a>
         </li>
         <li class="nav-item">
           <a class="nav-link boton" routerLink ='/form'>Entrada</a>

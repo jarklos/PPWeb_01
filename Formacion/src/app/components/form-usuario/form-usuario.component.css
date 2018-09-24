@@ -23,7 +23,7 @@ input, button, select {
     padding: 20px;
 }
 
-input:disabled, button:disabled {
+input:read-only, button:read-only {
     color: gray;
     background: white;
 }

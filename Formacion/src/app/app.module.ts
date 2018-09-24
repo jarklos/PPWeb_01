@@ -28,12 +28,9 @@ import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/shared/header/header.component';
-import { ListaDeVideosComponent } from './components/lista-de-videos/lista-de-videos.component';
-import { VideoPlayerComponent } from './components/video-player/video-player.component';
 import { FormulariosComponent } from './components/formularios/formularios.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { ResetPassComponent } from './components/reset-pass/reset-pass.component';
-import { RegistroVComponent } from './components/registro-v/registro-v.component';
 import { UserComponent } from './components/user/user.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { UserResumeComponent } from './components/user/user-resume/user-resume.component';
@@ -42,7 +39,6 @@ import { UserNewsComponent } from './components/user/user-news/user-news.compone
 import { UserCompradoComponent } from './components/user/user-comprado/user-comprado.component';
 import { UserNavComponent } from './components/user/user-nav/user-nav.component';
 import { UserHistoryComponent } from './components/user/user-history/user-history.component';
-import { PopupComponent } from './components/popup/popup.component';
 import { UserSoldComponent } from './components/user/user-sold/user-sold.component';
 import { UserSoldMenuComponent } from './components/user/user-sold-menu/user-sold-menu.component';
 import { UserDataComponent } from './components/user/user-data/user-data.component';
@@ -58,13 +54,10 @@ import { FormUsuarioComponent } from './components/form-usuario/form-usuario.com
   declarations: [
     AppComponent,
     HeaderComponent,
-    ListaDeVideosComponent,
-    VideoPlayerComponent,
     HomeComponent,
     FormulariosComponent,
     FooterComponent,
     ResetPassComponent,
-    RegistroVComponent,
     UserComponent,
     AcercadeComponent,
     UserResumeComponent,
@@ -74,7 +67,6 @@ import { FormUsuarioComponent } from './components/form-usuario/form-usuario.com
     UserNavComponent,
     UserHistoryComponent,
     AcercadeComponent,
-    PopupComponent,
     UserSoldComponent,
     UserSoldMenuComponent,
     UserDataComponent,

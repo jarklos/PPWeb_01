@@ -3,39 +3,3 @@
     flex-direction: row;
     line-height: 1.8;
 }
-
-a {
-    color: tomato;
-    margin-left: 10px;
-}
-
-form {
-    display: grid;
-    grid-template: 1fr / 1fr 1fr;
-    grid-gap: 45px;
-}
-
-.input-area {
-    display: grid;
-    grid-template: 1fr 2fr / 1fr;
-}
-
-label {
-    font-weight: 600;
-    margin-left: 7px;
-}
-
-input, button {
-    background: white;
-    box-shadow: 0px 1px 3px 0px #80808057;
-    border: 0;
-    height: 60px;
-    width: 100%;
-    padding: 20px;
-}
-
-input:disabled, button:disabled {
-    color: gray;
-    background: white;
-}
-
