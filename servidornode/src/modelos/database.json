@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "host": "192.168.1.3",
+    "driver": "mysql",
+    "user": "psiky",
+    "database": "psikydesav03",
+    "password": "supuPsiKy/14"
+  },
+  "production": {
+    "host": "localhost",
+    "driver": "mysql",
+    "user": "root",
+    "database": "psikydesav03",
+    "password": ""
+  }
+}

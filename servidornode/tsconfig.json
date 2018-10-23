@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "removeComments": true,
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/*",
+    "src/server/*",
+    "src/rutas/*",
+    "src/modelos/*",
+    "src/modelos/models/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
