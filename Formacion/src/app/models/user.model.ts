@@ -7,4 +7,11 @@ export class User {
     cPostal: number;
     mail: string;
     tel: number;
+    password: string;
+    password2: string;
+}
+
+export class Credenciales {
+    mail: string;
+    password: string;
 }
